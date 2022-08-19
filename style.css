@@ -1,0 +1,23 @@
+#name {
+    display: flex;
+    justify-content: flex-start;
+}
+#tabs {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+#passionsHeader {
+    display: flex;
+    justify-content: center;
+}
+#passions {
+    display: flex;
+    justify-content: center;
+    color:aliceblue;
+}
+
+body {
+    margin: 40px;
+    background-color: #3b3e60;
+}
