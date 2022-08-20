@@ -6,17 +6,30 @@
   </head>
   <body>
     <h1 id="name">Diego Valles</h1>
+    <!--Navigation Bar-->
       <ul id="navBar" class="navStyle">
-        <li>Passions</li>
-        <li>Education</li>
+        <li>
+          <a href="#passionsTab">
+          Passions</a>
+        </li>
+        <li>
+          <a href="#educationTab">
+            Education
+          </a>
+        </li>
       </ul>
-    <h2 class="pHeader">Passions</h2>
+      <!--Picture And Caption-->
+<figure id ="diegoPic">
+      <img
+      src="./images/Diego (1).jpg"
+      alt="Picture of Diego"
+      >
+      <figcaption>Hi, I'm Diego!</figcaption>
+</figure>
+      <!--Passions-->
+<h2 id="passionsTab" class="pHeader">Passions</h2>
     <div id="passions">
      <div id="contentcreation">
-      <img
-        src="./images/camera.png"
-        width="50px"
-        />
       <h3 class="pSubHeader">
         Content Creation
       </h3>
@@ -38,6 +51,26 @@
       </p>
     </div>
   </div>
+         <!--Education-->
+         <h2 id="educationTab" class="pHeader">Education</h2>
+         <div id="passions">
+          <div id="contentcreation">
+           <h3 class="pSubHeader">
+             Political Science
+           </h3>
+            <p class="paragraph">
+              I graduated from the University of Texas at El Paso with a Magna Cum Laude honor. I spent my time at UTEP learning about judicial behavior, law (constitutional and civil liberties), and government. My intention was to proceed to law school after graduation, but I later decided that litigation wasn’t a career that interested me.
+            </p>
+          </div>
+         <div id="gaming">
+           <h3 class="pSubHeader">Software Engineering</h3>
+           <p class="paragraph">
+            I recently began a software engineering bootcamp at Flatiron School. I am still new to the field, but I hope to transition to a career in Programming in the future.  At Flatiron, I will learn skills in Java Script, CSS, HTML, and more.
+            
+           </p>
+         </div>
+       </div>
+
     <script src="script.js"></script>
   </body>
 </html>
