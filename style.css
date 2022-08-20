@@ -10,6 +10,7 @@
     padding: 0;
     font-size: 4em;
     color: #66FCF1;
+    font-style:oblique;
 }
 /*Navigation Bar*/
 .navStyle {
@@ -56,9 +57,10 @@ figure:hover {
 /*images*/
 #bodyImages {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 0em;
     padding: 0em;
+    margin-bottom:100px;
 }
 #cam {
 width: 15em;
@@ -67,10 +69,26 @@ width: 15em;
 width: 25em;
 }
 
+#educationImages {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0em;
+    padding: 0em;
+    margin-bottom:200px;
+}
+#utepLogo {
+width: 15em;
+}
+#flatironLogo {
+    width: auto;
+    height: 200px;
+}
+
 /*body*/
 body {
     margin: 40px;
     background-color: #0B0C10;
+    
 }
 
 .pHeader {
@@ -94,15 +112,13 @@ p {
     justify-content: space-around;
     max-width: 30em;
     font-size: 1.5em;
-    margin-left: .5em;
-    padding-left: .5em;
-    margin-right: .5em;
-    padding-right: .5em;
+    margin-bottom: 100px;
+    margin-left: 50px;
 }
 .pSubHeader {
     color: #45A29E;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     font-size: 2em;
     max-width: 30em;
     margin: 0em;
