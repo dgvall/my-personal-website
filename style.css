@@ -1,6 +1,6 @@
 * {
     font-family: sans-serif ;
-    color:whitesmoke;
+    color: #C5C6C7;
 }
 
 #name {
@@ -9,50 +9,80 @@
     margin: 0;
     padding: 0;
     font-size: 4em;
+    color: #66FCF1;
 }
 /*Navigation Bar*/
 .navStyle {
     font-size: 2em;
+    color: antiquewhite;
+    background-color: #1F2833;
 }
 #navBar {
     display: flex;
     justify-content: flex-end;
-    margin: 100px;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-#navBar li {
-    margin: 1em;
+a:link {
+text-decoration: none;
 }
+a:hover {
+    color: #66FCF1;
+}
+#navBar li {
+    margin: .75em;
+}
+
+
 /*Image and Caption*/
 figure {
-    border: 1px #cccccc solid;
+    border: 3px #45A29E solid;
     padding: 4px;
     margin-left: auto;
     margin-right: auto;
     width: 692px;
 }
 figcaption {
-    background-color: black;
-    color: white;
+    background-color: #1F2833;
     font-style: italic;
     padding: 2px;
     text-align:center;
 }
+figure:hover {
+    border: #66FCF1;
+    background-color: #66FCF1;
+}
+/*images*/
+#bodyImages {
+    display: flex;
+    justify-content: space-around;
+    margin: 0em;
+    padding: 0em;
+}
+#cam {
+width: 15em;
+}
+#controller {
+width: 25em;
+}
+
 /*body*/
 body {
     margin: 40px;
-    background-color: #3b3e60;
+    background-color: #0B0C10;
 }
 
 .pHeader {
+    color:antiquewhite;
     display: flex;
     justify-content: center;
     font-size: 3em;
     margin: 0;
     padding:0;
     list-style-type:none;
+    margin-top: .5em;
+    margin-bottom: 1em;
 }
 
 #passions {
@@ -70,6 +100,7 @@ p {
     padding-right: .5em;
 }
 .pSubHeader {
+    color: #45A29E;
     display: flex;
     justify-content: center;
     font-size: 2em;
